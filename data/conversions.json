@@ -1,0 +1,92 @@
+[
+  {
+    "id": "me1sints079ksrj1gt6b",
+    "from": "INR",
+    "to": "NZD",
+    "amount": 322,
+    "result": 6.194897,
+    "rate": 0.0192388092,
+    "timestamp": "2025-08-07T19:28:48.928Z"
+  },
+  {
+    "id": "me1rxyk4h6tx62csit6",
+    "from": "AUD",
+    "to": "BGN",
+    "amount": 1.16,
+    "result": 1.265474,
+    "rate": 1.0909256799,
+    "timestamp": "2025-08-07T19:12:43.060Z"
+  },
+  {
+    "id": "me1reczwdsbc30nea2b",
+    "from": "AUD",
+    "to": "BRL",
+    "amount": 231,
+    "result": 819.580047,
+    "rate": 3.5479655702,
+    "timestamp": "2025-08-07T18:57:28.652Z"
+  },
+  {
+    "id": "me1qrn9e4bs43afnl3c",
+    "from": "USD",
+    "to": "CAD",
+    "amount": 231,
+    "result": 317.287783,
+    "rate": 1.3735401874,
+    "timestamp": "2025-08-07T18:39:48.866Z"
+  },
+  {
+    "id": "me1qqtqwgf6c0tnteyu",
+    "from": "CAD",
+    "to": "USD",
+    "amount": 231,
+    "result": 168.178552,
+    "rate": 0.7280456802,
+    "timestamp": "2025-08-07T18:39:10.616Z"
+  },
+  {
+    "id": "me1qgcewieq8uo0bn88",
+    "from": "USD",
+    "to": "RUB",
+    "amount": 321,
+    "result": 25674.95875,
+    "rate": 79.9842951704,
+    "timestamp": "2025-08-07T18:31:01.592Z"
+  },
+  {
+    "id": "me1qe35qm78udvkrcn",
+    "from": "RUB",
+    "to": "USD",
+    "amount": 321,
+    "result": 4.013288,
+    "rate": 0.0125024544,
+    "timestamp": "2025-08-07T18:29:16.286Z"
+  },
+  {
+    "id": "me1puliaig1d3syg8m8",
+    "from": "USD",
+    "to": "TRY",
+    "amount": 123,
+    "result": 5000.466227,
+    "rate": 40.654196971,
+    "timestamp": "2025-08-07T18:14:06.946Z"
+  },
+  {
+    "id": "me1prmrelef68l9etz",
+    "from": "BGN",
+    "to": "AUD",
+    "amount": 123,
+    "result": 112.748285,
+    "rate": 0.9166527275,
+    "timestamp": "2025-08-07T18:11:48.602Z"
+  },
+  {
+    "id": "me1prc2eakhy8ysjbwd",
+    "from": "AUD",
+    "to": "BGN",
+    "amount": 123,
+    "result": 134.183859,
+    "rate": 1.0909256799,
+    "timestamp": "2025-08-07T18:11:34.742Z"
+  }
+]
