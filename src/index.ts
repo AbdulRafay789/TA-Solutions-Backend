@@ -42,5 +42,5 @@ app.use('*', (req, res) => {
   res.status(404).json({ error: 'Route not found' });
 });
 
-// Vercel expects to export a function, not call `listen`
+// Export as serverless function
 export default app;
