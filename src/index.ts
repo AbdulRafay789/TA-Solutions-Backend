@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3002;
 // Middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'http://localhost:4200',
+  origin: process.env.CORS_ORIGIN || 'https://ta-solutions-backend.vercel.app',
   credentials: true
 }));
 app.use(morgan('combined'));
