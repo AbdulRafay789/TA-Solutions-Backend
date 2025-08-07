@@ -4,9 +4,9 @@
   "description": "Backend API for currency converter application",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
-    "build": "tsc",
+    "start": "node dist/index.js", 
+    "dev": "nodemon src/index.ts", 
+    "build": "tsc", 
     "test": "jest"
   },
   "dependencies": {
