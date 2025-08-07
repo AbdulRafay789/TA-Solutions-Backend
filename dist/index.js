@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3002;
 // Middleware
 app.use((0, helmet_1.default)());
 app.use((0, cors_1.default)({
-    origin: process.env.CORS_ORIGIN || 'https://ta-solutions-frontend.vercel.app/',
+    origin: process.env.CORS_ORIGIN || 'https://ta-solutions-frontend.vercel.app',
     credentials: true
 }));
 app.use((0, morgan_1.default)('combined'));

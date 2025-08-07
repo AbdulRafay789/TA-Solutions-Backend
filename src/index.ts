@@ -14,13 +14,18 @@ const PORT = process.env.PORT || 3002;
 
 // Middleware
 app.use(helmet());
-app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'https://ta-solutions-frontend.vercel.app/',
-  credentials: true
-}));
 app.use(morgan('combined'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// CORS Configuration
+const corsOptions = {
+  origin: process.env.CORS_ORIGIN || 'https://ta-solutions-frontend.vercel.app', // Replace with your frontend URL
+  credentials: true, // If you're using cookies or sessions
+};
+
+// Enable CORS with options
+app.use(cors(corsOptions));
 
 // Routes
 app.use('/api', currencyRoutes);
