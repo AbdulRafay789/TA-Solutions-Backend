@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // CORS Configuration
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN || 'https://ta-solutions-frontend.vercel.app', // Replace with your frontend URL
+  origin: 'https://ta-solutions-frontend.vercel.app', // Replace with your frontend URL
   credentials: true, // If you're using cookies or sessions
 };
 
@@ -46,6 +46,6 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
 app.use('*', (req, res) => {
   res.status(404).json({ error: 'Route not found' });
 });
-
+app.listen(3000, () => console.log('Server running on port 3000'));
 // Export as serverless function
 export default app;
